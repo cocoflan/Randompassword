@@ -3,25 +3,18 @@
 
 import string
 import random
-print ('Random Password')
+print ('5 Random Password')
 print ('---------------')
 print
+x = input('lengte:')
 def randompassword():
     chars=string.ascii_uppercase + string.ascii_lowercase + string.digits
     size= 0
 
-    return ''.join(random.choice(chars) for x in range(size,30))
+    return ''.join(random.choice(chars) for x in range(size, +x))
 
 print(randompassword())
-print
-print ('30 characters')
-print
-def randompassword2():
-    chars=string.ascii_uppercase + string.ascii_lowercase + string.digits
-    size= 0
-
-    return ''.join(random.choice(chars) for x in range(size,60))
-
-print(randompassword2())
-print
-print ('60 characters')
+print(randompassword())
+print(randompassword())
+print(randompassword())
+print(randompassword())
