@@ -1,5 +1,6 @@
-
-
+#import Tkinter
+#top = Tkinter.Tk()
+#top.mainloop()
 
 import string
 import random
