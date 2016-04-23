@@ -5,7 +5,7 @@
 import string
 import random
 print ('5 Random Password')
-print ('---------------')
+print ('-----------------')
 print
 x = input('lengte:')
 def randompassword():
@@ -19,3 +19,8 @@ print(randompassword())
 print(randompassword())
 print(randompassword())
 print(randompassword())
+
+print
+
+raw_input("Press Enter to Exit")
+
