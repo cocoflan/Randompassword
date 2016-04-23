@@ -22,5 +22,7 @@ print(randompassword())
 
 print
 
+print
+
 raw_input("Press Enter to Exit")
 
