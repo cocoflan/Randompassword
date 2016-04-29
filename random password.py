@@ -1,11 +1,11 @@
 import Tkinter
 import string
 import random
-top = Tkinter.Tk()
-top.geometry('300x200-5+30')
-oldtitle = top.title()
-top.title('5 Random Passwords')
-top.mainloop()
+#top = Tkinter.Tk()
+#top.geometry('300x200-5+30')
+#oldtitle = top.title()
+#top.title('5 Random Passwords')
+#top.mainloop()
 
 
 
