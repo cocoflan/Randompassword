@@ -1,9 +1,14 @@
-#import Tkinter
-#top = Tkinter.Tk()
-#top.mainloop()
+import Tkinter
+top = Tkinter.Tk()
+top.geometry('300x200-5+30')
+oldtitle = top.title()
+top.title('5 Random Passwords')
+top.mainloop()
 
 import string
 import random
+
+
 print ('5 Random Password')
 print ('-----------------')
 print
@@ -25,4 +30,8 @@ print
 print
 
 raw_input("Press Enter to Exit")
+
+
+
+
 
